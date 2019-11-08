@@ -1,4 +1,7 @@
-# DECS
-## Nature-Inspired Compressed Sensing for Transcriptomic Profiling from Random Composite Measurements
-
+# Nature-Inspired Compressed Sensing for Transcriptomic Profiling from Random Composite Measurements
 Transcriptomic profiling is a high-throughput approach to measure gene expression levels under different experimental conditions at different timings. With the development of the related technologies such as single-cell RNA-Seq, the dimensions of gene expression data are increased to hundreds of thousands or more for high-resolution insights. There is a long-lasting challenge in exploiting the relations between transcriptomic profiles and random composite measurements. To address it, we proposed a mathematical framework based on differential evolution (global search) with the help of compressed sensing (local search) termed as DECS. Exploiting the inherent sparse nature of gene expression data, the proposed DECS method can learn the sparse module dictionaries and levels from the low-dimensional random composite measurements for reconstructing the high-dimensional gene expression data with significant orders of magnitude (e.g. 200x). Several experiments were conducted to compare DECS with three benchmark methods, demonstrating that the proposed DECS outperforms the benchmark methods and can recover most of the gene expression patterns. The underlying reasons are discussed and illustrated by revealing the related mechanistic insights through extensive benchmarks on nine GSE datasets and its sensitivity analysis.
+
+---------------------------------------
+Shixiong Zhang
+
+Oct 10 2019
